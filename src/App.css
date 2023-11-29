@@ -1,0 +1,195 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.close{
+  position: fixed;
+  top:60px;
+  right:60px;
+}
+.cardmodal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.onecard{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 60%;
+  height: 180px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.upcard{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:40px;
+}
+.cardeventname{
+  font-size: 18px;
+  font-weight: 600;
+}
+.close{
+  background-color: rgb(225, 105, 105);
+  color:white;
+  padding: 10px;
+  cursor: pointer;
+}
+.downcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:50px;
+}
+.cardimg{
+  height: 50px;
+  width: 50px;
+}
+.card {
+  gap:10px;
+  height: auto;
+  border-radius: 8px;
+  border-color: gainsboro;
+  border: 2px gray;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.eventcard{
+ width: 900px;
+  border-radius: 8px;
+  border-color: gainsboro;
+  border: 2px gray;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerimg{
+  margin-left: 30px;
+  margin-top: 15px ;
+  height: 70px;
+  width: 100px;
+}
+
+.cardbody {
+  padding: 20px;
+}
+
+.cardtitle {}
+
+.seprator {
+  border: 1px solid rgb(228, 226, 226);
+  width: 100%;
+}
+
+.eventinput {
+  margin-bottom: 30px;
+  height: 30px;
+  width: 700px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.eventinput:focus {
+  border: 2px solid #059862;
+}
+
+.eventdate {}
+
+.eventdatetime {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+.container {
+  position: relative;
+
+}
+
+.container img {
+  width: 100%;
+  height: 300px;
+}
+
+.container .btn {
+  position: absolute;
+  top: 12%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.createbtn {
+  color: #fff;
+  background-color: #059862;
+  border: none;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.createbtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.sidebtn {
+  padding: 5px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: fixed;
+  left: 0;
+  top: 40%;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #059862;
+
+}
+
+.sideimg {
+  height: 50px;
+  width: 100px;
+}
+
+.eventlist {
+  display: none;
+}
+
+.sidebtn:hover .eventlist {
+  display: block;
+}
